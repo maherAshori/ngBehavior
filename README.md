@@ -1,8 +1,8 @@
-<pre>
-    <h1>ngBehavior</h1>
-    ngBehavior set of AngularJs Directives, which includes items that are used for input validation.
-    Nuget Link: https://www.nuget.org/packages/ngBehavior/
-</pre>
+<h1>ngBehavior</h1>
+<p>
+ngBehavior set of AngularJs Directives, which includes items that are used for input validation.
+Nuget Link: https://www.nuget.org/packages/ngBehavior/
+</p>
 
 <pre>
     <div class="container">
