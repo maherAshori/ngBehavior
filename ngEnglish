@@ -1,0 +1,12 @@
+<div ng-app="myApp" ng-controller="myCtrl">
+    <h1>ngEnglish Example:</h1>
+    <input type="text" ng-model="englishInput1" ng-english number="true" placeholder="just english with Number" />
+    <input type="text" ng-model="englishInput2" ng-english number="false" placeholder="just english without Number" />
+</div>
+<script src="/Scripts/jquery-2.1.3.min.js"></script>
+<script src="/Scripts/angular.min.js"></script>
+<script src="/Scripts/angular-sanitize.min.js"></script>
+<script src="/ngEnglish.js"></script>
+<script type="text/javascript">
+    angular.module('myApp', ['ngAttr']);
+</script>
