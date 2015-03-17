@@ -1,0 +1,11 @@
+<div ng-app="myApp" ng-controller="myCtrl">
+    <h1>ngFloat Example:</h1>
+    <input type="text" ng-model="floatInput" ng-float number="true" placeholder="type 1.55 OR etc" />
+</div>
+<script src="/Scripts/jquery-2.1.3.min.js"></script>
+<script src="/Scripts/angular.min.js"></script>
+<script src="/Scripts/angular-sanitize.min.js"></script>
+<script src="/ngFloat.js"></script>
+<script type="text/javascript">
+    angular.module('myApp', ['ngAttr']);
+</script>
