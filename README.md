@@ -28,32 +28,34 @@ Nuget Link: https://www.nuget.org/packages/ngBehavior/
 
 <pre>&#60;input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" show-button-panel="true" placeholder="sample 4" /></pre>
 
-#ngEnglish
-&#60;input type="text" ng-model="englishInput1" ng-english number="true" placeholder="just english with Number" />
+<h1>ngEnglish</h1>
+<pre>&#60;input type="text" ng-model="englishInput1" ng-english number="true" placeholder="just english with Number" /></pre>
 
-&#60;input type="text" ng-model="englishInput2" ng-english number="false" placeholder="just english without Number" />
+<pre>&#60;input type="text" ng-model="englishInput2" ng-english number="false" placeholder="just english without Number" /></pre>
   
-#ngFarsi
-&#60;input type="text" ng-model="farsiInput1" ng-farsi number="true" placeholder="just Farsi with Number" />
-&#60;input type="text" ng-model="farsiInput2" ng-farsi number="false" placeholder="just Farsi & No number" />
+<h1>ngFarsi</h1>
+<pre>&#60;input type="text" ng-model="farsiInput1" ng-farsi number="true" placeholder="just Farsi with Number" /></pre>
+<pre>&#60;input type="text" ng-model="farsiInput2" ng-farsi number="false" placeholder="just Farsi & No number" /></pre>
 
-#ngFarsi::arabic-to-farsi-word ['ي', 'ی','ك', 'ک']   
-&#60;input type="text" ng-model="farsiInput3" ng-farsi number="false" arabic-to-farsi-word="true" placeholder="just Farsi & No number & arabic to farsi word" />
+<h1>ngFarsi::arabic-to-farsi-word ['ي', 'ی','ك', 'ک']</h1>
+<pre>&#60;input type="text" ng-model="farsiInput3" ng-farsi number="false" arabic-to-farsi-word="true" placeholder="just Farsi & No number & arabic to farsi word" /></pre>
 
-&#60;input type="text" ng-model="farsiInput4" ng-farsi number="true" arabic-to-farsi-word="true" placeholder="just Farsi & With number & arabic to farsi word" />
+<pre>&#60;input type="text" ng-model="farsiInput4" ng-farsi number="true" arabic-to-farsi-word="true" placeholder="just Farsi & With number & arabic to farsi word" /></pre>
 
-#ngFloat
-&#60;input type="text" ng-model="floatInput" ng-float number="true" placeholder="type 1.55 OR etc" />
+<h1>ngFloat</h1>
+<pre>&#60;input type="text" ng-model="floatInput" ng-float number="true" placeholder="type 1.55 OR etc" /></pre>
 
-#ngFocus
-&#60;input type="text" ng-model="firstName" ng-focus="true" placeholder="FirstName" />
+<h1>ngFocus</h1>
+<pre>&#60;input type="text" ng-model="firstName" ng-focus="true" placeholder="FirstName" /></pre>
 
-&#60;input type="text" ng-model="lastName" ng-focus="onfocus('Ashori')" placeholder="LastName" />
+<pre>&#60;input type="text" ng-model="lastName" ng-focus="onfocus('Ashori')" placeholder="LastName" /></pre>
     
-#ngInteger
-&#60;input type="text" ng-model="code" ng-integer placeholder="just integer" />
+<h1>ngInteger</h1>
+<pre>&#60;input type="text" ng-model="code" ng-integer placeholder="just integer" /></pre>
 
-#ngTimePicker
-&#60;ng-time-picker format="24" ng-model="time" time="{{time}}" lang="fa">&#60;/ng-time-picker>
-> format="12 OR 24"
-> $scope.time="12:55:13"
+<h1>ngTimePicker</h1>
+<pre>&#60;ng-time-picker format="24" ng-model="time" time="{{time}}" lang="fa">&#60;/ng-time-picker><pre>
+<ul>
+<li>format="12 OR 24"</li>
+<li>$scope.time="12:55:13"</li>
+</ul>
