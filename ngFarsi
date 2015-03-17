@@ -1,0 +1,17 @@
+<div ng-app="myApp" ng-controller="myCtrl">
+    <h1>ngFarsi Example:</h1>
+    <input type="text" ng-model="farsiInput1" ng-farsi number="true" placeholder="just Farsi with Number" />
+    <br />
+    <input type="text" ng-model="farsiInput2" ng-farsi number="false" placeholder="just Farsi & No number" />
+    <br />
+    <input type="text" ng-model="farsiInput3" ng-farsi number="false" arabic-to-farsi-word="true" placeholder="just Farsi & No number & arabic to farsi word" />
+    <br />
+    <input type="text" ng-model="farsiInput4" ng-farsi number="true" arabic-to-farsi-word="true" placeholder="just Farsi & With number & arabic to farsi word" />
+</div>
+<script src="/Scripts/jquery-2.1.3.min.js"></script>
+<script src="/Scripts/angular.min.js"></script>
+<script src="/Scripts/angular-sanitize.min.js"></script>
+<script src="/ngFarsi.js"></script>
+<script type="text/javascript">
+    angular.module('myApp', ['ngAttr']);
+</script>
