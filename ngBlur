@@ -1,0 +1,15 @@
+<div ng-app="myApp" ng-controller="myCtrl">
+    <h1>ngBlur Example:</h1>
+    <input type="text" ng-model="fullName" ng-blur="onblur('Maher Ashori')" placeholder="Full Name" />
+</div>
+<script src="/Scripts/jquery-2.1.3.min.js"></script>
+<script src="/Scripts/angular.min.js"></script>
+<script src="/Scripts/angular-sanitize.min.js"></script>
+<script src="/ngBlur.js"></script>
+<script type="text/javascript">
+    angular.module('myApp', ['ngAttr']).controller('myCtrl', function ($scope) {
+        $scope.onblur = function (string) {
+            $scope.fullName = string;
+        };
+    });
+</script>
