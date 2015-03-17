@@ -42,8 +42,9 @@ all directives use for &#60;input />
 &#60;input type="text" ng-model="floatInput" ng-float number="true" placeholder="type 1.55 OR etc" />
 
 #ngFocus
-<input type="text" ng-model="firstName" ng-focus="true" placeholder="FirstName" />
-<input type="text" ng-model="lastName" ng-focus="onfocus('Ashori')" placeholder="LastName" />
+&#60;input type="text" ng-model="firstName" ng-focus="true" placeholder="FirstName" />
+
+&#60;input type="text" ng-model="lastName" ng-focus="onfocus('Ashori')" placeholder="LastName" />
     
 #ngInteger
 &#60;input type="text" ng-model="code" ng-integer placeholder="just integer" />
