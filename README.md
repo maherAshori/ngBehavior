@@ -4,16 +4,8 @@ ngBehavior set of AngularJs Directives, which includes items that are used for i
 Nuget Link: https://www.nuget.org/packages/ngBehavior/
 </p>
 
-<pre>
-    <div class="container">
-        <div class="block two first">
-            <h2>note</h2>
-            <div class="wrap">
-            all directives use for &#60;input />
-            </div>
-        </div>
-    </div>
-</pre>
+<h1>note</h1>
+<p>all directives use for <pre>&#60;input /></pre></p>
 
 #ngBlur
 &#60;input type="text" ng-model="fullName" ng-blur="onblur('Maher Ashori')" placeholder="Full Name" />
