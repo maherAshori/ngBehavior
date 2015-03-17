@@ -1,0 +1,18 @@
+<link href="/Content/css/bootstrap-rtl.css" rel="stylesheet" />
+<link href="/Content/css/timePickerStyle.css" rel="stylesheet" />
+<div ng-app="myApp" ng-controller="myCtrl">
+    <h1>ngTimePicker Example:</h1>
+    <div class="col-md-4">
+        <ng-time-picker format="24" ng-model="timeIs" time="{{timeIs}}" lang="fa"></ng-time-picker>
+    </div>
+    {{timeIs}}
+</div>
+<script src="/Scripts/jquery-2.1.3.min.js"></script>
+<script src="/Scripts/angular.min.js"></script>
+<script src="/Scripts/angular-sanitize.min.js"></script>
+<script src="/ngTimePicker.js"></script>
+<script type="text/javascript">
+    angular.module('myApp', ['ngAttr']).controller('myCtrl', ["$scope",function (scope) {
+        scope.timeIs = "12:00:15";
+    }]);
+</script>
