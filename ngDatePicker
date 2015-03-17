@@ -1,0 +1,31 @@
+<link href="/Content/css/bootstrap-rtl.css" rel="stylesheet" />
+<link href="/Content/bootstrap-datapicker/bootstrap-datepicker.min.css" rel="stylesheet" />
+<link href="/Content/font-awesome.min.css" rel="stylesheet" />
+<div ng-app="myApp" ng-controller="myCtrl">
+    <div class="col-md-4 col-md-offset-4">
+        <h1>ngDatePicker Example:</h1>
+        <input type="text" class="form-control" ng-model="datePicker1" ng-date-picker placeholder="sample 1" />
+        <br />
+        <input type="text" class="form-control" ng-model="datePicker2" ng-date-picker format="yy/mm/dd" placeholder="sample 3" />
+        <br />            
+        <input type="text" class="form-control" ng-model="datePicker3" ng-date-picker format="yy/mm/dd" change-year="true" change-month="true" placeholder="sample 3" />
+        <br />            
+        <input type="text" class="form-control" ng-model="datePicker5" ng-date-picker format="yy/mm/dd" min-date="2015/03/01" max-date="2015/03/10" placeholder="sample 4" />
+        <br />            
+        <input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" min-date="2015/03/01" max-date="today" placeholder="sample 4" />
+        <br />
+        <input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" months-number="2" placeholder="sample 4" />        
+        <br />
+        <input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" show-button-panel="true" placeholder="sample 4" />
+    </div>
+</div>
+<script src="/Scripts/jquery-2.1.3.min.js"></script>
+<script src="/Scripts/bootstrap-rtl.js"></script>
+<script src="/Scripts/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+<script src="/Scripts/bootstrap-datepicker/bootstrap-datepicker.fa.min.js"></script>
+<script src="/Scripts/angular.min.js"></script>
+<script src="/Scripts/angular-sanitize.min.js"></script>
+<script src="/ngDatePicker.js"></script>
+<script type="text/javascript">
+    angular.module('myApp', ['ngAttr']);
+</script>
