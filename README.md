@@ -7,25 +7,26 @@ Nuget Link: https://www.nuget.org/packages/ngBehavior/
 <h1>note</h1>
 <p>all directives use for <pre>&#60;input /></pre></p>
 
-#ngBlur
-&#60;input type="text" ng-model="fullName" ng-blur="onblur('Maher Ashori')" placeholder="Full Name" />
-#ngCurrency
-&#60;input type="text" ng-model="currencyInput" ng-currency />
+<h1>ngBlur</h1>
+<pre>&#60;input type="text" ng-model="fullName" ng-blur="onblur('Maher Ashori')" placeholder="Full Name" /></pre>
 
-#ngDatePicker 
-&#60;input type="text" class="form-control" ng-model="datePicker1" ng-date-picker placeholder="sample 1" />
+<h1>ngCurrency</h1>
+<pre>&#60;input type="text" ng-model="currencyInput" ng-currency /></pre>
 
-&#60;input type="text" class="form-control" ng-model="datePicker2" ng-date-picker format="yy/mm/dd" placeholder="sample 2" />
+<h1>ngDatePicker</h1>
+<pre>&#60;input type="text" class="form-control" ng-model="datePicker1" ng-date-picker placeholder="sample 1" /></pre>
 
-&#60;input type="text" class="form-control" ng-model="datePicker3" ng-date-picker format="yy/mm/dd" change-year="true" change-month="true" placeholder="sample 3" />
+<pre>&#60;input type="text" class="form-control" ng-model="datePicker2" ng-date-picker format="yy/mm/dd" placeholder="sample 2" /></pre>
 
-&#60;input type="text" class="form-control" ng-model="datePicker5" ng-date-picker format="yy/mm/dd" min-date="2015/03/01" max-date="2015/03/10" placeholder="sample 4" />
+<pre>&#60;input type="text" class="form-control" ng-model="datePicker3" ng-date-picker format="yy/mm/dd" change-year="true" change-month="true" placeholder="sample 3" /></pre>
 
-&#60;input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" min-date="2015/03/01" max-date="today" placeholder="sample 4" />
+<pre>&#60;input type="text" class="form-control" ng-model="datePicker5" ng-date-picker format="yy/mm/dd" min-date="2015/03/01" max-date="2015/03/10" placeholder="sample 4" /></pre>
 
-&#60;input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" months-number="2" placeholder="sample 4" />  
+<pre>&#60;input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" min-date="2015/03/01" max-date="today" placeholder="sample 4" /></pre>
 
-&#60;input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" show-button-panel="true" placeholder="sample 4" />
+<pre>&#60;input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" months-number="2" placeholder="sample 4" /></pre>
+
+<pre>&#60;input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" show-button-panel="true" placeholder="sample 4" /></pre>
 
 #ngEnglish
 &#60;input type="text" ng-model="englishInput1" ng-english number="true" placeholder="just english with Number" />
