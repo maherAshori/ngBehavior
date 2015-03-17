@@ -1,8 +1,25 @@
-# ngBehavior
-ngBehavior set of AngularJs Directives, which includes items that are used for input validation.
-Nuget Link: https://www.nuget.org/packages/ngBehavior/
-#note
-all directives use for &#60;input />
+<pre>
+    <div class="container">
+        <div class="block two first">
+            <h2>ngBehavior</h2>
+            <div class="wrap">
+            ngBehavior set of AngularJs Directives, which includes items that are used for input validation.
+            Nuget Link: https://www.nuget.org/packages/ngBehavior/
+            </div>
+        </div>
+    </div>
+</pre>
+
+<pre>
+    <div class="container">
+        <div class="block two first">
+            <h2>note</h2>
+            <div class="wrap">
+            all directives use for &#60;input />
+            </div>
+        </div>
+    </div>
+</pre>
 
 #ngBlur
 &#60;input type="text" ng-model="fullName" ng-blur="onblur('Maher Ashori')" placeholder="Full Name" />
