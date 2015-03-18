@@ -55,7 +55,9 @@ Nuget Link: https://www.nuget.org/packages/ngBehavior/
 
 <h1>ngTimePicker</h1>
 <pre>&#60;ng-time-picker format="24" ng-model="time" time="{{time}}" lang="fa">&#60;/ng-time-picker><pre>
+
 <ul>
-<li>format="12 OR 24"</li>
+<li>lang="fa OR en" : result > change the input placeholder text</li>
+<li>format="12 OR 24" : result > change format of the time</li>
 <li>$scope.time="12:55:13"</li>
 </ul>
