@@ -7,7 +7,7 @@
 <script src="/Scripts/angular-sanitize.min.js"></script>
 <script src="/ngBlur.js"></script>
 <script type="text/javascript">
-    angular.module('myApp', ['ngAttr']).controller('myCtrl', function ($scope) {
+    angular.module('myApp', ['ngBehavior']).controller('myCtrl', function ($scope) {
         $scope.onblur = function (string) {
             $scope.fullName = string;
         };
