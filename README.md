@@ -61,3 +61,17 @@ Nuget Link: https://www.nuget.org/packages/ngBehavior/
 <li>format="12 OR 24" : result > change format of the time</li>
 <li>$scope.time="12:55:13"</li>
 </ul>
+
+<h1>ngLogin</h1>
+
+<pre>
+&#60;ng-login username-label="username" password-label="password" input-label="false">
+                    <button ng-click="login()" class="btn btn-info btn-block login">login</button>
+&#60;/ng-login>
+</pre>
+
+<ul>
+<li>input-label: boolen</li>
+<li>username-label: Text</li>
+<li>password-label: Text</li>
+</ul>
