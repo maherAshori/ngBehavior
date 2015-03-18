@@ -66,7 +66,7 @@ Nuget Link: https://www.nuget.org/packages/ngBehavior/
 
 <pre>
 &#60;ng-login username-label="username" password-label="password" input-label="false">
-                    <button ng-click="login()" class="btn btn-info btn-block login">login</button>
+  &#60;button ng-click="login()" class="btn btn-info btn-block login">login&#60;/button>
 &#60;/ng-login>
 </pre>
 
