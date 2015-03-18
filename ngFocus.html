@@ -10,7 +10,7 @@
 <script src="/Scripts/angular-sanitize.min.js"></script>
 <script src="/ngFocus.js"></script>
 <script type="text/javascript">
-    angular.module('myApp', ['ngAttr']).controller('myCtrl', function ($scope) {
+    angular.module('myApp', ['ngBehavior']).controller('myCtrl', function ($scope) {
         $scope.onfocus = function (string) {
             $scope.lastName = string;
         };
