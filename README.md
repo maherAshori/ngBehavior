@@ -75,3 +75,16 @@ Nuget Link: https://www.nuget.org/packages/ngBehavior/
 <li>username-label: Text</li>
 <li>password-label: Text</li>
 </ul>
+
+<h1>ngRating</h1>
+
+<pre>
+&#60;ng-rating number="8" current-rate="1" icon="fa fa-star-o fa-2x" active-icon="fa fa-star fa-2x" rate-action="controllerFunction">&#60;/ng-rating>
+</pre>
+
+<ul>
+<li>number: int <i style="color:red">[number of rating]</i></li>
+<li>icon: "css class or html unicode"</li>
+<li>active-icon: "css class or html unicode"</li>
+<li>rate-action: call action from your controller (see the example)</li>
+</ul>
