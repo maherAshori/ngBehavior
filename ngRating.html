@@ -1,0 +1,30 @@
+<link href="bootstrap-rtl.css" rel="stylesheet" />
+<link href="font-awesome.css" rel="stylesheet" />
+
+<div ng-app="myApp" ng-controller="myCtrl">
+    <div class="col-md-4 col-md-offset-4 text-center">
+        <h1>ngRating Example</h1>
+        <hr/>
+        <ng-rating number="8" current-rate="1" icon="fa fa-star-o fa-2x" active-icon="fa fa-star fa-2x" rate-action="controllerFunction"></ng-rating>
+        Your Rate Is {{rate}}
+        <hr />
+        <ng-rating number="5" current-rate="3" icon="fa fa-star-o fa-2x" active-icon="fa fa-star fa-2x" rate-action="controllerFunction2"></ng-rating>
+        Your Rate Is {{rate2}}
+    </div>
+</div>
+
+<script src="/Scripts/jquery-2.1.3.min.js"></script>
+<script src="/Scripts/angular.min.js"></script>
+<script src="/Scripts/angular-sanitize.min.js"></script>
+<script src="/ngRating.js"></script>
+<script type="text/javascript">
+    angular.module('myApp', ['ngBehavior']).controller('myCtrl', function ($scope) {
+        $scope.controllerFunction = function (newRate) {
+            $scope.rate = newRate;
+        }
+
+        $scope.controllerFunction2 = function (newRate) {
+            $scope.rate2 = newRate;
+        }
+    });
+</script>
