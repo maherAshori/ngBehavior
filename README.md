@@ -72,7 +72,7 @@ all directives use for &#60;input />
 - lang="fa OR en" : result > change the input placeholder text
 - format="12 OR 24" : result > change format of the time
 - $scope.time="12:55:13"
-- 
+
 <h1>ngLogin</h1>
 ```html
 <ng-login username-label="username" password-label="password" input-label="false">
@@ -82,7 +82,7 @@ all directives use for &#60;input />
 - input-label: boolen
 - username-label: Text
 - password-label: Text
-- 
+
 <h1>ngRating</h1>
 ```html
 <ng-rating number="8" current-rate="1" icon="fa fa-star-o fa-2x" active-icon="fa fa-star fa-2x" rate-action="controllerFunction"></ng-rating>
