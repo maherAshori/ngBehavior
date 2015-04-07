@@ -1,5 +1,4 @@
 <h1>ngBehavior</h1>
-=======================
 ngBehavior set of AngularJs Directives, which includes items that are used for input validation.
 Nuget Link: - ([ngBehavior]( https://www.nuget.org/packages/ngBehavior/))
 
@@ -69,29 +68,27 @@ all directives use for &#60;input />
 <h1>ngTimePicker</h1>
 ```html
 <ng-time-picker format="24" ng-model="time" time="{{time}}" lang="fa"></ng-time-picker>
-
+```
 - lang="fa OR en" : result > change the input placeholder text
 - format="12 OR 24" : result > change format of the time
 - $scope.time="12:55:13"
-```
-
+- 
 <h1>ngLogin</h1>
 ```html
 <ng-login username-label="username" password-label="password" input-label="false">
   <button ng-click="login()" class="btn btn-info btn-block login">login</button>
 </ng-login>
-
+```
 - input-label: boolen
 - username-label: Text
 - password-label: Text
-```
-
+- 
 <h1>ngRating</h1>
 ```html
 <ng-rating number="8" current-rate="1" icon="fa fa-star-o fa-2x" active-icon="fa fa-star fa-2x" rate-action="controllerFunction"></ng-rating>
+```
 
 - number: int <i style="color:red">[number of rating]</i>
 - icon: "css class or html unicode"
 - active-icon: "css class or html unicode"
 - rate-action: call action from your controller (see the example)
-```
