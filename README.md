@@ -4,7 +4,7 @@ Nuget Link: - ([ngBehavior]( https://www.nuget.org/packages/ngBehavior/))
 
 <h1>note</h1>
 ```bash
-all directives use for &#60;input />
+all directives use for <input />
 ```
 <h1>ngBlur</h1>
 ```html
