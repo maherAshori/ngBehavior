@@ -22,10 +22,10 @@ all directives use for <input />
   <input type="text" class="form-control" ng-model="datePicker1" ng-date-picker placeholder="sample 1" />
   <input type="text" class="form-control" ng-model="datePicker2" ng-date-picker format="yy/mm/dd" placeholder="sample 2" />
   <input type="text" class="form-control" ng-model="datePicker3" ng-date-picker format="yy/mm/dd" change-year="true" change-month="true" placeholder="sample 3" />
-  <input type="text" class="form-control" ng-model="datePicker5" ng-date-picker format="yy/mm/dd" min-date="2015/03/01" max-date="2015/03/10" placeholder="sample 4" />
-  <input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" min-date="2015/03/01" max-date="today" placeholder="sample 5" />
+  <input type="text" class="form-control" ng-model="datePicker4" ng-date-picker format="yy/mm/dd" min-date="2015/03/01" max-date="2015/03/10" placeholder="sample 4" />
+  <input type="text" class="form-control" ng-model="datePicker5" ng-date-picker format="yy/mm/dd" min-date="2015/03/01" max-date="today" placeholder="sample 5" />
   <input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" months-number="2" placeholder="sample 6" />
-  <input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" show-button-panel="true" placeholder="sample 7" />
+  <input type="text" class="form-control" ng-model="datePicker7" ng-date-picker format="yy/mm/dd" show-button-panel="true" placeholder="sample 7" />
 </div>
 ```
 - ng-datepicker-language : "en" OR "fa"
