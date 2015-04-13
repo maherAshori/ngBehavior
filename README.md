@@ -27,7 +27,7 @@ all directives use for &#60;input />
   <input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" show-button-panel="true" placeholder="sample 7" />
 </div>
 ```
--ng-datepicker-language : "en" OR "fa"
+- ng-datepicker-language : "en" OR "fa"
 
 <h1>ngEnglish</h1>
 ```html
@@ -97,4 +97,4 @@ all directives use for &#60;input />
 ```
 
 -lang: "en" OR "fa"
--set-tags: array EX: ["sample","sample2"]
+- set-tags: array EX: ["sample","sample2"]
