@@ -14,22 +14,20 @@ all directives use for &#60;input />
 ```html
 <input type="text" ng-model="currencyInput" ng-currency />
 ```
+
 <h1>ngDatePicker</h1>
 ```html
-<input type="text" class="form-control" ng-model="datePicker1" ng-date-picker placeholder="sample 1" />
-
-<input type="text" class="form-control" ng-model="datePicker2" ng-date-picker format="yy/mm/dd" placeholder="sample 2" />
-
-<input type="text" class="form-control" ng-model="datePicker3" ng-date-picker format="yy/mm/dd" change-year="true" change-month="true" placeholder="sample 3" />
-
-<input type="text" class="form-control" ng-model="datePicker5" ng-date-picker format="yy/mm/dd" min-date="2015/03/01" max-date="2015/03/10" placeholder="sample 4" />
-
-<input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" min-date="2015/03/01" max-date="today" placeholder="sample 4" />
-
-<input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" months-number="2" placeholder="sample 4" />
-
-<input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" show-button-panel="true" placeholder="sample 4" />
+<div ng-datepicker-language="en">
+  <input type="text" class="form-control" ng-model="datePicker1" ng-date-picker placeholder="sample 1" />
+  <input type="text" class="form-control" ng-model="datePicker2" ng-date-picker format="yy/mm/dd" placeholder="sample 2" />
+  <input type="text" class="form-control" ng-model="datePicker3" ng-date-picker format="yy/mm/dd" change-year="true" change-month="true" placeholder="sample 3" />
+  <input type="text" class="form-control" ng-model="datePicker5" ng-date-picker format="yy/mm/dd" min-date="2015/03/01" max-date="2015/03/10" placeholder="sample 4" />
+  <input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" min-date="2015/03/01" max-date="today" placeholder="sample 5" />
+  <input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" months-number="2" placeholder="sample 6" />
+  <input type="text" class="form-control" ng-model="datePicker6" ng-date-picker format="yy/mm/dd" show-button-panel="true" placeholder="sample 7" />
+</div>
 ```
+-ng-datepicker-language : "en" OR "fa"
 
 <h1>ngEnglish</h1>
 ```html
@@ -92,3 +90,11 @@ all directives use for &#60;input />
 - icon: "css class or html unicode"
 - active-icon: "css class or html unicode"
 - rate-action: call action from your controller (see the example)
+
+<h1>ngTags</h1>
+```html
+<ng-tags lang="en" set-tags="{{myTags}}"></ng-tags>
+```
+
+-lang: "en" OR "fa"
+-set-tags: array EX: ["sample","sample2"]
