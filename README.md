@@ -1,6 +1,7 @@
 <h1>ngBehavior <small>v1.1.2</small></h1>
-ngBehavior set of AngularJs Directives, which includes items that are used for input validation.
-Nuget Link: - ([ngBehavior]( https://www.nuget.org/packages/ngBehavior/))
+ngBehavior is set of AngularJs Directives, which includes items that are used for input validation.
+<br>
+<b>Nuget Link:</b> ([ngBehavior]( https://www.nuget.org/packages/ngBehavior/))
 
 <h1>note</h1>
 ```bash
