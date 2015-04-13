@@ -96,5 +96,5 @@ all directives use for &#60;input />
 <ng-tags lang="en" set-tags="{{myTags}}"></ng-tags>
 ```
 
--lang: "en" OR "fa"
+- lang: "en" OR "fa"
 - set-tags: array EX: ["sample","sample2"]
