@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>ngBehavior by maherAshori</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">ngBehavior</h1>
+      <h2 class="project-tagline">ngBehavior is set of AngularJs Directives, which includes items that are used for input validation.</h2>
+      <a href="https://github.com/maherAshori/ngBehavior" class="btn">View on GitHub</a>
+      <a href="https://github.com/maherAshori/ngBehavior/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/maherAshori/ngBehavior/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="ngbehavior-v112" class="anchor" href="#ngbehavior-v112" aria-hidden="true"><span class="octicon octicon-link"></span></a>ngBehavior v1.1.2</h1>
+
+<p>ngBehavior is set of AngularJs Directives, which includes items that are used for input validation.
+<br>
+<b>Nuget Link:</b> (<a href="https://www.nuget.org/packages/ngBehavior/">ngBehavior</a>)</p>
+
+<h1>
+<a id="note" class="anchor" href="#note" aria-hidden="true"><span class="octicon octicon-link"></span></a>note</h1>
+
+<div class="highlight highlight-bash"><pre>all directives use <span class="pl-k">for</span> <span class="pl-smi">&lt;input</span> /<span class="pl-k">&gt;</span></pre></div>
+
+<h1>
+<a id="ngblur" class="anchor" href="#ngblur" aria-hidden="true"><span class="octicon octicon-link"></span></a>ngBlur</h1>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>fullName<span class="pl-pds">"</span></span> <span class="pl-e">ng-blur</span>=<span class="pl-s"><span class="pl-pds">"</span>onblur('Maher Ashori')<span class="pl-pds">"</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>Full Name<span class="pl-pds">"</span></span> /&gt;</pre></div>
+
+<h1>
+<a id="ngcurrency" class="anchor" href="#ngcurrency" aria-hidden="true"><span class="octicon octicon-link"></span></a>ngCurrency</h1>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>currencyInput<span class="pl-pds">"</span></span> <span class="pl-e">ng-currency</span> /&gt;</pre></div>
+
+<h1>
+<a id="ngdatepicker" class="anchor" href="#ngdatepicker" aria-hidden="true"><span class="octicon octicon-link"></span></a>ngDatePicker</h1>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">ng-datepicker-language</span>=<span class="pl-s"><span class="pl-pds">"</span>en<span class="pl-pds">"</span></span>&gt;
+  &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>form-control<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>datePicker1<span class="pl-pds">"</span></span> <span class="pl-e">ng-date-picker</span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>sample 1<span class="pl-pds">"</span></span> /&gt;
+  &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>form-control<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>datePicker2<span class="pl-pds">"</span></span> <span class="pl-e">ng-date-picker</span> <span class="pl-e">format</span>=<span class="pl-s"><span class="pl-pds">"</span>yy/mm/dd<span class="pl-pds">"</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>sample 2<span class="pl-pds">"</span></span> /&gt;
+  &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>form-control<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>datePicker3<span class="pl-pds">"</span></span> <span class="pl-e">ng-date-picker</span> <span class="pl-e">format</span>=<span class="pl-s"><span class="pl-pds">"</span>yy/mm/dd<span class="pl-pds">"</span></span> <span class="pl-e">change-year</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span> <span class="pl-e">change-month</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>sample 3<span class="pl-pds">"</span></span> /&gt;
+  &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>form-control<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>datePicker4<span class="pl-pds">"</span></span> <span class="pl-e">ng-date-picker</span> <span class="pl-e">format</span>=<span class="pl-s"><span class="pl-pds">"</span>yy/mm/dd<span class="pl-pds">"</span></span> <span class="pl-e">min-date</span>=<span class="pl-s"><span class="pl-pds">"</span>2015/03/01<span class="pl-pds">"</span></span> <span class="pl-e">max-date</span>=<span class="pl-s"><span class="pl-pds">"</span>2015/03/10<span class="pl-pds">"</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>sample 4<span class="pl-pds">"</span></span> /&gt;
+  &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>form-control<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>datePicker5<span class="pl-pds">"</span></span> <span class="pl-e">ng-date-picker</span> <span class="pl-e">format</span>=<span class="pl-s"><span class="pl-pds">"</span>yy/mm/dd<span class="pl-pds">"</span></span> <span class="pl-e">min-date</span>=<span class="pl-s"><span class="pl-pds">"</span>2015/03/01<span class="pl-pds">"</span></span> <span class="pl-e">max-date</span>=<span class="pl-s"><span class="pl-pds">"</span>today<span class="pl-pds">"</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>sample 5<span class="pl-pds">"</span></span> /&gt;
+  &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>form-control<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>datePicker6<span class="pl-pds">"</span></span> <span class="pl-e">ng-date-picker</span> <span class="pl-e">format</span>=<span class="pl-s"><span class="pl-pds">"</span>yy/mm/dd<span class="pl-pds">"</span></span> <span class="pl-e">months-number</span>=<span class="pl-s"><span class="pl-pds">"</span>2<span class="pl-pds">"</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>sample 6<span class="pl-pds">"</span></span> /&gt;
+  &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>form-control<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>datePicker7<span class="pl-pds">"</span></span> <span class="pl-e">ng-date-picker</span> <span class="pl-e">format</span>=<span class="pl-s"><span class="pl-pds">"</span>yy/mm/dd<span class="pl-pds">"</span></span> <span class="pl-e">show-button-panel</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>sample 7<span class="pl-pds">"</span></span> /&gt;
+&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+
+<ul>
+<li>ng-datepicker-language : "en" OR "fa"</li>
+</ul>
+
+<h1>
+<a id="ngenglish" class="anchor" href="#ngenglish" aria-hidden="true"><span class="octicon octicon-link"></span></a>ngEnglish</h1>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>englishInput1<span class="pl-pds">"</span></span> <span class="pl-e">ng-english</span> <span class="pl-e">number</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>just english with Number<span class="pl-pds">"</span></span> /&gt;
+
+&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>englishInput2<span class="pl-pds">"</span></span> <span class="pl-e">ng-english</span> <span class="pl-e">number</span>=<span class="pl-s"><span class="pl-pds">"</span>false<span class="pl-pds">"</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>just english without Number<span class="pl-pds">"</span></span> /&gt;</pre></div>
+
+<h1>
+<a id="ngfarsi" class="anchor" href="#ngfarsi" aria-hidden="true"><span class="octicon octicon-link"></span></a>ngFarsi</h1>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>farsiInput1<span class="pl-pds">"</span></span> <span class="pl-e">ng-farsi</span> <span class="pl-e">number</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>just Farsi with Number<span class="pl-pds">"</span></span> /&gt;
+&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>farsiInput2<span class="pl-pds">"</span></span> <span class="pl-e">ng-farsi</span> <span class="pl-e">number</span>=<span class="pl-s"><span class="pl-pds">"</span>false<span class="pl-pds">"</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>just Farsi <span class="pl-ii">&amp;</span> No number<span class="pl-pds">"</span></span> /&gt;</pre></div>
+
+<h1>
+<a id="ngfarsiarabic-to-farsi-word-ي-یك-ک" class="anchor" href="#ngfarsiarabic-to-farsi-word-%D9%8A-%DB%8C%D9%83-%DA%A9" aria-hidden="true"><span class="octicon octicon-link"></span></a>ngFarsi::arabic-to-farsi-word ['ي', 'ی','ك', 'ک']</h1>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>farsiInput3<span class="pl-pds">"</span></span> <span class="pl-e">ng-farsi</span> <span class="pl-e">number</span>=<span class="pl-s"><span class="pl-pds">"</span>false<span class="pl-pds">"</span></span> <span class="pl-e">arabic-to-farsi-word</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>just Farsi <span class="pl-ii">&amp;</span> No number <span class="pl-ii">&amp;</span> arabic to farsi word<span class="pl-pds">"</span></span> /&gt;
+
+&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>farsiInput4<span class="pl-pds">"</span></span> <span class="pl-e">ng-farsi</span> <span class="pl-e">number</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span> <span class="pl-e">arabic-to-farsi-word</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>just Farsi <span class="pl-ii">&amp;</span> With number <span class="pl-ii">&amp;</span> arabic to farsi word<span class="pl-pds">"</span></span> /&gt;</pre></div>
+
+<h1>
+<a id="ngfloat" class="anchor" href="#ngfloat" aria-hidden="true"><span class="octicon octicon-link"></span></a>ngFloat</h1>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>floatInput<span class="pl-pds">"</span></span> <span class="pl-e">ng-float</span> <span class="pl-e">number</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>type 1.55 OR etc<span class="pl-pds">"</span></span> /&gt;</pre></div>
+
+<h1>
+<a id="ngfocus" class="anchor" href="#ngfocus" aria-hidden="true"><span class="octicon octicon-link"></span></a>ngFocus</h1>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>firstName<span class="pl-pds">"</span></span> <span class="pl-e">ng-focus</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>FirstName<span class="pl-pds">"</span></span> /&gt;
+
+&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>lastName<span class="pl-pds">"</span></span> <span class="pl-e">ng-focus</span>=<span class="pl-s"><span class="pl-pds">"</span>onfocus('Ashori')<span class="pl-pds">"</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>LastName<span class="pl-pds">"</span></span> /&gt;</pre></div>
+
+<h1>
+<a id="nginteger" class="anchor" href="#nginteger" aria-hidden="true"><span class="octicon octicon-link"></span></a>ngInteger</h1>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>code<span class="pl-pds">"</span></span> <span class="pl-e">ng-integer</span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">"</span>just integer<span class="pl-pds">"</span></span> /&gt;</pre></div>
+
+<h1>
+<a id="ngtimepicker" class="anchor" href="#ngtimepicker" aria-hidden="true"><span class="octicon octicon-link"></span></a>ngTimePicker</h1>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">ng</span><span class="pl-e">-time-picker</span> <span class="pl-e">format</span>=<span class="pl-s"><span class="pl-pds">"</span>24<span class="pl-pds">"</span></span> <span class="pl-e">ng-model</span>=<span class="pl-s"><span class="pl-pds">"</span>time<span class="pl-pds">"</span></span> <span class="pl-e">time</span>=<span class="pl-s"><span class="pl-pds">"</span>{{time}}<span class="pl-pds">"</span></span> <span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">"</span>fa<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">ng</span><span class="pl-e">-time-picker</span>&gt;</pre></div>
+
+<ul>
+<li>lang="fa OR en" : result &gt; change the input placeholder text</li>
+<li>format="12 OR 24" : result &gt; change format of the time</li>
+<li>$scope.time="12:55:13"</li>
+</ul>
+
+<h1>
+<a id="nglogin" class="anchor" href="#nglogin" aria-hidden="true"><span class="octicon octicon-link"></span></a>ngLogin</h1>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">ng</span><span class="pl-e">-login</span> <span class="pl-e">username-label</span>=<span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span> <span class="pl-e">password-label</span>=<span class="pl-s"><span class="pl-pds">"</span>password<span class="pl-pds">"</span></span> <span class="pl-e">input-label</span>=<span class="pl-s"><span class="pl-pds">"</span>false<span class="pl-pds">"</span></span>&gt;
+  &lt;<span class="pl-ent">button</span> <span class="pl-e">ng-click</span>=<span class="pl-s"><span class="pl-pds">"</span>login()<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>btn btn-info btn-block login<span class="pl-pds">"</span></span>&gt;login&lt;/<span class="pl-ent">button</span>&gt;
+&lt;/<span class="pl-ent">ng</span><span class="pl-e">-login</span>&gt;</pre></div>
+
+<ul>
+<li>input-label: boolen</li>
+<li>username-label: Text</li>
+<li>password-label: Text</li>
+</ul>
+
+<h1>
+<a id="ngrating" class="anchor" href="#ngrating" aria-hidden="true"><span class="octicon octicon-link"></span></a>ngRating</h1>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">ng</span><span class="pl-e">-rating</span> <span class="pl-e">number</span>=<span class="pl-s"><span class="pl-pds">"</span>8<span class="pl-pds">"</span></span> <span class="pl-e">current-rate</span>=<span class="pl-s"><span class="pl-pds">"</span>1<span class="pl-pds">"</span></span> <span class="pl-e">icon</span>=<span class="pl-s"><span class="pl-pds">"</span>fa fa-star-o fa-2x<span class="pl-pds">"</span></span> <span class="pl-e">active-icon</span>=<span class="pl-s"><span class="pl-pds">"</span>fa fa-star fa-2x<span class="pl-pds">"</span></span> <span class="pl-e">rate-action</span>=<span class="pl-s"><span class="pl-pds">"</span>controllerFunction<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">ng</span><span class="pl-e">-rating</span>&gt;</pre></div>
+
+<ul>
+<li>number: int <i>[number of rating]</i>
+</li>
+<li>icon: "css class or html unicode"</li>
+<li>active-icon: "css class or html unicode"</li>
+<li>rate-action: call action from your controller (see the example)</li>
+</ul>
+
+<h1>
+<a id="ngtags" class="anchor" href="#ngtags" aria-hidden="true"><span class="octicon octicon-link"></span></a>ngTags</h1>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">ng</span><span class="pl-e">-tags</span> <span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">"</span>en<span class="pl-pds">"</span></span> <span class="pl-e">set-tags</span>=<span class="pl-s"><span class="pl-pds">"</span>{{myTags}}<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">ng</span><span class="pl-e">-tags</span>&gt;</pre></div>
+
+<ul>
+<li>lang: "en" OR "fa"</li>
+<li>set-tags: array EX: ["sample","sample2"]</li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/maherAshori/ngBehavior">ngBehavior</a> is maintained by <a href="https://github.com/maherAshori">maherAshori</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
+
