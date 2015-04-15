@@ -99,3 +99,10 @@ all directives use for <input />
 
 - lang: "en" OR "fa"
 - set-tags: array EX: ["sample","sample2"]
+
+<h1>ngMask</h1>
+```html
+<input type="text" ng-mask="(999) 999-9999" ng-model="phone"/>
+```
+
+- ng-mask: you can set any input format
