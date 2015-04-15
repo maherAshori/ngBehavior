@@ -1,4 +1,4 @@
-![ngBehavior Logo](https://dl-web.dropbox.com/get/ngBehavior.jpg?_subject_uid=373659780&w=AAB8sXyBNpN-Kra979z7AfPPSBE3ZZCnZmBt1bX2VCg4Og)
+<h1>ngBehavior</h1>
 _v1.1.3_
 > ngBehavior is set of AngularJs Directives, which includes items that are used for input validation.
 <br>
