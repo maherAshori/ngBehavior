@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student</title>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+    <div class="container">
+        <label>Phone Number</label>
+        <input type="text" ng-mask="(999) 999-9999" ng-model="phone"/> {{phone}}
+        <br/>
+        <label>Custom Id</label>
+        <input type="text" ng-mask="9-9-9-999" ng-model="myCustomId"/> {{myCustomId}}
+    </div>
+    <script src="/Scripts/jquery-2.1.3.min.js"></script>
+    <script src="/Scripts/angular.min.js"></script>
+    <script src="/Scripts/angular-sanitize.min.js"></script>
+    <script src="/ngMask.js"></script>
+    <script type="text/javascript">
+        angular.module("myApp", ["ngBehavior"]).controller("myCtrl", function ($scope) {
+        });
+    </script>
+</body>
+</html>
