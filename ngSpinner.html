@@ -1,0 +1,15 @@
+<link href="Content/bootstrap.css" rel="stylesheet" />
+<link href="Content/font-awesome.css" rel="stylesheet" />
+
+<ng-spinner value="{{myTest1}}" max="5" min="-1" ng-model="myTest1"></ng-spinner>{{myTest1}}
+<ng-spinner value="{{myTest2}}" max="10" min="0" ng-model="myTest2"></ng-spinner>{{myTest2}}
+
+<script src="Scripts/jquery-2.1.3.js"></script>
+<script src="Scripts/angular.js"></script>
+<script src="Scripts/angular-sanitize.js"></script>
+<script src="Scripts/ngBehavior/ngBehavior.min.js"></script>
+<script type="text/javascript">
+    angular.module("myApp", ["ngBehavior"]).controller("myCtrl", function ($scope, $http) {
+        $scope.myTest222 = 5;
+    });
+</script>
