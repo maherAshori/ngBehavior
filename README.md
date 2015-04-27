@@ -107,3 +107,12 @@ all directives use for <input />
 ```
 
 - ng-mask: you can set any input format
+
+<h1>ngSpinner</h1>
+```html
+<ng-spinner value="{{myTest}}" max="5" min="-1" ng-model="myTest"></ng-spinner>
+```
+
+- value: your default value
+- max: maximum value
+- min: minimum value
