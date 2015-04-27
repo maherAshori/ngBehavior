@@ -1,5 +1,5 @@
 <h1>ngBehavior</h1>
-_v1.1.3_
+_v1.1.5_
 > ngBehavior is set of AngularJs Directives, which includes items that are used for input validation.
 <br>
 <b>Nuget Link:</b> ([ngBehavior]( https://www.nuget.org/packages/ngBehavior/))
